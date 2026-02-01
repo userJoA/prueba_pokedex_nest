@@ -17,7 +17,7 @@ import { joiValidationSchema } from './config/joi.validation';
       // load file with env variables
       load: [EnvConfiguration],
       // validate env variables
-      validationSchema: [joiValidationSchema]
+      validationSchema: joiValidationSchema
     }),
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'public'),
@@ -30,6 +30,6 @@ import { joiValidationSchema } from './config/joi.validation';
 })
 export class AppModule {
   constructor(){
-    console.log(process.env)
+    
   }
 }
