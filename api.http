@@ -1,8 +1,11 @@
 ### GET /Pokemon
 GET http://localhost:3000/api/v2/pokemon
 
+### Seed Data
+GET http://localhost:3000/api/v2/seed
+
 ### GET /cars/:id
-GET http://localhost:3000/api/v2/pokemon/696f48276200e467e10f8d2a
+GET http://localhost:3000/api/v2/pokemon/pikachu
 
 ### POST /pokemon
 POST http://localhost:3000/api/v2/pokemon
